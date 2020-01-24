@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="base64.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudApi.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mCurl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="NewPing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="wavplayer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="wavutils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="buttons.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="changer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="colormid.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base64.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudApi.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="consts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dependents.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mCurl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NewPing.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wavplayer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wavutils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="changer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="colormid.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{813abcff-eb74-4a8c-b1c2-cb412b71c9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{ac970053-9c67-41f5-a009-36d2fe22bebd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
