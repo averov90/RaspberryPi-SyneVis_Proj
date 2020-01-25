@@ -3,7 +3,7 @@
 #include "NewPing.h"
 #include "consts.h"
 #include "CloudApi.h"
-#include"wavplayer.h"
+#include "wavplayer.h"
 #include "wavutils.h"
 #include "colormid.h"
 
@@ -95,10 +95,8 @@ CommonUltrasonic::CommonUltrasonic(raspicam::RaspiCam_Cv *camera) {
 	}
 	sound = WavUtils::LoadSND("/home/pi/projects/SyneVisLinux/bin/ARM/Debug/too_close.snd", slen);
 	notext = WavUtils::LoadSND("/home/pi/projects/SyneVisLinux/bin/ARM/Debug/no_text.snd", ntlen);
-	Mat tmp;
 	camera->grab();
 	camera->retrieve(tmp);
-	Detectors_Easy_Reset(0, &tmp);
 	std::thread sonar(sonar_thr, this, camera);
 	sonar.detach();
 }
