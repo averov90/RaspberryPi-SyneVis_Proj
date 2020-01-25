@@ -1,6 +1,6 @@
 # Raspberry - Synesthesia Vision
 [![License](https://img.shields.io/badge/LICENSE-The%20Unlicense-green?style=flat-square)](/LICENSE)  [![Version](https://img.shields.io/badge/VERSION-DEBUG%20--%20demonstrable-yellow?style=flat-square)](https://github.com/averov90/RaspberryPi-SyneVis_Proj/releases)
-
+### :small_orange_diamond: [English version](/README-eng.md)
 Данный проект в конечном своём виде представляет из себя устройство следующей комплектации:
 - Raspberry Pi (с установленным Raspbian, библиотеками, и, собственно, программой)
 - Raspicam (1080p)
