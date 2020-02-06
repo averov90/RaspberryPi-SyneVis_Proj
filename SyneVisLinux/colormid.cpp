@@ -7,14 +7,6 @@ using namespace cv;
 
 static Mat splm[3];
 
-void Detectors_Easy_Reset(unsigned char detector, void *param) {
-	if (detector == 0) {
-		gray = Mat(((Mat*)param)->size(), CV_8UC1, Scalar(255));
-		findContours(gray, contours, RetrievalModes::RETR_EXTERNAL, ContourApproximationModes::CHAIN_APPROX_SIMPLE);
-		MAX_AREA = (unsigned int)(minAreaRect(contours[0]).size.area() / 2);
-	}
-}
-
 char Detectors_Easy_Recognise_color(Mat& picture, unsigned char start_br_level) {
 	Rect rc;
 	rc.x = 300;
